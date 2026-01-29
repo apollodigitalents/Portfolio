@@ -1,0 +1,23 @@
+header {
+  background-color: rgb(79, 164, 238);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-buttons-container {
+  background-color: rgb(124, 0, 0);
+  height: 100%;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-button {
+  width: 100px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+}

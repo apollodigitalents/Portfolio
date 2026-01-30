@@ -3,6 +3,11 @@ header {
   height: 50px;
   display: flex;
   justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 
 .header-buttons-container {
@@ -20,4 +25,9 @@ header {
   justify-content: center;
   align-items: center;
   border: solid 1px black;
+}
+
+.header-button-link {
+  text-decoration: none;
+  color: black;
 }

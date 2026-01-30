@@ -7,17 +7,129 @@
   <title>Portfolio</title>
   <link rel="stylesheet" type="text/css" href="css/general.css">
   <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
 </head>
 
 <body>
   <header>
     <div class="header-buttons-container">
-      <div class="header-button">Top</div>
-      <div class="header-button">Work</div>
-      <div class="header-button">Portfolio</div>
-      <div class="header-button">Contact</div>
+      <div class="header-button">
+        <a class="header-button-link" href="#top">Top</a>
+      </div>
+      <div class="header-button">
+        <a class="header-button-link" href="#skills">Skills</a>
+      </div>
+      <div class="header-button">
+        <a class="header-button-link" href="#portfolio">Portfolio</a>
+      </div>
+      <div class="header-button">
+        <a class="header-button-link" href="#contact">Contact</a>
+      </div>
     </div>
   </header>
+
+  <main>
+    <div class="top" id="top">
+      <div class="top-content">
+        <img class="top-image" src="images/Näyttökuva 2026-01-30 114857.png" alt="top-image">
+        <div class="top-text">
+          <h1>Hey, my name is Apollo Uitto!</h1>
+          <p>
+            I am a 20 year old aspiring programmer from Helsinki, Finland.
+            My main focus of programming centers around web development
+            and video games. I also like to do other projects, such as
+            programs about calculating and generating. My main programming
+            languages used are HTML, CSS, Javascript and C#. As for the
+            use of AI, I occasionally use it to speed up the process, but
+            I always carefully examine the code to test it indeed works
+            as intended.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="skills" id="skills">
+      <div class="skills-content">
+        <h1 class="skills-content-title">Here are my primary skills listed down below</h1>
+        <div class="skills-grid">
+          <div class="skills-box">
+            <div class="skills-box-image-container">
+              <img class="godot-logo" src="images/godot-logo.png" alt="Godot-logo">
+              <img class="csharp-logo" src="images/Csharp_Logo.png" alt="C# logo">
+            </div>
+            <div class="skills-box-text-container">
+              <h3 class="skills-box-title">Game Development (Godot + C#)</h3>
+              <p>
+                For the longest time, I have had the dream of creating a
+                game. In 2022, I finally decided to take real steps
+                towards the goal as I began learning Unity and the
+                code it operatres on, C#. After complications with the
+                company back in 2023, I decided to move on to Godot,
+                which also supported C#, the language I had grown fond
+                of. Since then, I have been learning and experimenting
+                inside Godot, creating many different kinds of games,
+                some bigger, some smaller, though none yet released.
+                Through all of my ideas, I have settled on two
+                projects, which are my current focuses and the games
+                I truly plan on one day publishing.
+              </p>
+            </div>
+          </div>
+          <div class="skills-box">
+            <div class="skills-box-image-container">
+              <img class="html-logo" src="images/HTML5_Badge_512.png" alt="html-logo">
+              <img class="css-logo" src="images/CSS3_logo.svg.png" alt="css-logo">
+              <img class="js-logo" src="images/javascript-logo-transparent-logo-javascript-images-3.png"
+                alt="javascript logo">
+            </div>
+            <div class="skills-box-text-container">
+              <h3 class="skills-box-title">Web Developmemnt (HTML, CSS, Javascript)</h3>
+              <p>
+                I initially learned web development around the time
+                I started coding in Unity, after taking a class where
+                we created a webgame. Since then, I have worked on
+                several websites, including business, tournament and
+                personal blog sites. I have not yet published a website
+                of my own as there have been no need, but I have
+                been thinking of starting a blog for my game development,
+                in which I would like to put my web dev skills to the
+                absolute test with all the cool features I can think of.
+              </p>
+            </div>
+          </div>
+          <div class="skills-box">
+            <div class="skills-box-image-container">
+              <img class="gears-icon" src="images/6387426.png" alt="gears-icon">
+            </div>
+            <div class="skills-box-text-container">
+              <h3 class="skills-box-title">Creativity and building</h3>
+              <p>
+                This is not limited to programming, although very much
+                connected to it. I tend to get a lot of different ideas
+                and solutions for problems, in all areas of life.
+                Whether it's creative programming, level design or
+                story telling, I like to "overthink" things and come up
+                with many different approaches, then choosing the best
+                one.
+              </p>
+              <p>
+                I always approach my work with efficiency and flexibility
+                in mind. For example, I want my code to be as general as
+                reasonably possible. Also, I want it to be as simple and
+                lightweight as possible.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio" id="portfolio"></div>
+  </main>
+
+  <footer>
+    <div class="contact" id="contact"></div>
+  </footer>
 </body>
 
 </html>

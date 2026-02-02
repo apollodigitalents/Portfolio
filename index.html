@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="css/header.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
 <body>
@@ -51,7 +52,7 @@
     <div class="skills" id="skills">
       <div class="skills-content">
         <h1 class="skills-content-title">Here are my primary skills listed down below</h1>
-        <div class="skills-grid">
+        <div class="skills-flexbox">
           <div class="skills-box">
             <div class="skills-box-image-area">
               <div class="skills-box-image-container-godot">
@@ -103,8 +104,58 @@
           </div>
           <div class="skills-box">
             <div class="skills-box-image-area">
+              <div class="skills-box-image-container-work-ethic">
+                <img class="work-ethic-icon" src="images/11350744.png" alt="work-ethic-icon">
+              </div>
+            </div>
+            <div class="skills-box-text-container">
+              <h3 class="skills-box-title">Good Work Ethic</h3>
+              <p>
+                I tend to have a lot of energy and motivation, which
+                ofcourse naturally helps me be more productive
+                and efficient in my work. I also get to the flow
+                state quite easily and can work long times,
+                completely focused on the task ahead.
+              </p>
+              <p>
+                I always set clear goals in my mind, which I
+                divide into macro and micro goals. Macro goals
+                are usually big milestones or even the end state,
+                while micro goals are much smaller and usually
+                achieved within 15 to 60 minutes. This
+                helps in maintaining a consistent pace in my
+                work, as well as having a clear vision of the
+                project at all times.
+              </p>
+            </div>
+          </div>
+          <div class="skills-box">
+            <div class="skills-box-image-area">
+              <div class="skills-box-image-container-statistics">
+                <img class="statistics-icon" src="images/4624025.png" alt="statistics-icon">
+              </div>
+            </div>
+            <div class="skills-box-text-container">
+              <h3 class="skills-box-title">Statistics</h3>
+              <p>
+                I am not a super mathematical person, however, different
+                statistics and archives have always fascinated me
+                for some reason. I always like to look and
+                analyze statistics in different fields, and I also
+                like to include them in my work in any way I can see fit.
+              </p>
+              <p>
+                This is not only really enjoyable for me, but also very
+                useful in many cases, as statistics often reveal a lot,
+                though you should never make direct assumptions solely
+                based on stats.
+              </p>
+            </div>
+          </div>
+          <div class="skills-box">
+            <div class="skills-box-image-area">
               <div class="skills-box-image-container-gears">
-                <img class="gears-icon" src="images/6387426.png" alt="gears-icon">
+                <img class="gears-icon" src="images/7260348.png" alt="gears-icon">
               </div>
             </div>
             <div class="skills-box-text-container">
@@ -215,8 +266,24 @@
   </main>
 
   <footer>
-    <div class="contact" id="contact"></div>
+    <div class="footer-content" id="contact">
+      <h3>Interested? Contact me from down below and let's talk!</h3>
+      <div class="contact-icons">
+        <i data-feather="github"></i>
+        <i data-feather="mail"></i>
+      </div>
+      <hr class="contact-line">
+      <div class="copyright">
+        <p>Inspiration for page style from <a id="miniport-link" href="#">Miniport</a></p>
+        <hr class="copyright-line">
+        <p>@2026 all rights reserved</p>
+      </div>
+    </div>
   </footer>
 </body>
 
 </html>
+
+<script>
+  feather.replace();
+</script>

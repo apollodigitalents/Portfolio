@@ -29,16 +29,12 @@
 .top-text {
   width: 600px;
   margin-left: 30px;
-  line-height: 30px;
-}
-
-.top-text p {
-  color: rgb(75, 75, 75);
+  line-height: 20px;
 }
 
 
 .skills {
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(224, 224, 224);
   border-bottom: 1px solid rgb(180, 180, 180);
   display: flex;
   justify-content: center;
@@ -47,9 +43,10 @@
 
 .skills-flexbox {
   flex-wrap: wrap;
-  width: 1400px;
+  width: 1106px;
   display: flex;
   justify-content: center;
+  gap: 25px;
 }
 
 .skills-content,
@@ -64,51 +61,16 @@
   margin-bottom: 50px;
 }
 
+.skills-grid {
+  grid-template-columns: 350px 350px 350px;
+  gap: 25px;
+}
+
 .skills-box {
-  margin: 13px;
   background-color: white;
-  border: 1px solid rgb(175, 175, 175);
+  border: 1px solid black;
   text-align: center;
-  width: 30%;
-  flex-shrink: 1;
-}
-
-@media (max-width: 1400px) {
-  .skills-flexbox {
-    width: 100%;
-  }
-}
-
-@media (max-width: 1250px) {
-  .skills-flexbox {
-    width: 1000px;
-  }
-
-  .skills-box {
-    width: 45%;
-  }
-}
-
-@media (max-width: 1000px) {
-  .skills-flexbox {
-    width: 100%;
-  }
-}
-
-@media (max-width: 750px) {
-  .skills-flexbox {
-    width: 500px;
-  }
-
-  .skills-box {
-    width: 90%;
-  }
-}
-
-@media (max-width: 500px) {
-  .skills-flexbox {
-    width: 100%;
-  }
+  width: 350px;
 }
 
 .skills-box-image-area {
@@ -210,12 +172,11 @@
 
 .skills-box-text-container {
   padding: 10px;
-  line-height: 30px;
+  line-height: 20px;
 }
 
 .skills-box-text-container p {
   color: rgb(75, 75, 75);
-  line-height: 25px;
 }
 
 .skills-box-title {
@@ -237,7 +198,7 @@
 
 .project-box {
   background-color: white;
-  border: 1px solid rgb(175, 175, 175);
+  border: 1px solid black;
   text-align: center;
 }
 
@@ -254,7 +215,7 @@
 
 .project-box-text-container {
   padding: 10px;
-  line-height: 30px;
+  line-height: 20px;
 }
 
 .project-box-text-container p {

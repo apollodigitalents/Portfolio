@@ -352,3 +352,16 @@
 .project-box-title {
   margin-top: 10px;
 }
+
+
+
+@media (max-width: 600px) {
+  .top {
+    border-bottom: none;
+  }
+
+  .skills {
+    background-color: rgb(243, 243, 243);
+    border-bottom: none;
+  }
+}
